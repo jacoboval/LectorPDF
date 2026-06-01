@@ -1,0 +1,36 @@
+# LectorPDF
+
+Aplicación en Python + Kivy para lectura de PDFs estilo Kindle.
+
+---
+
+## Características actuales
+
+- Carga de archivos PDF
+- Extracción de texto con PyMuPDF
+- Visualización tipo lector (ScrollView)
+- Base preparada para voz offline
+
+---
+
+## Arquitectura
+
+- main.py → UI principal
+- lector.py → lógica PDF
+- services/ → audio y almacenamiento futuro
+- ui/ → interfaces Kivy (.kv)
+
+---
+
+## Próximas mejoras
+
+- 🔊 Lectura en voz (TTS offline)
+- 🔖 Marcadores con SQLite
+- 🌙 Modo oscuro
+- 📱 Exportación Android APK
+
+---
+
+## Estado
+
+MVP funcional ✔

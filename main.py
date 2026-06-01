@@ -47,7 +47,7 @@ class RootWidget(BoxLayout):
             if selection:
                 ruta = selection[0]
                 texto = extraer_texto(ruta)
-                self.text.text = texto[:9000]
+                self.text.text = texto[:10000]
                 self.text.cursor = (0, 0)
                 self.text.scroll_y = 1
                 self.text.focus = False
